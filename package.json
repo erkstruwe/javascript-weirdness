@@ -1,0 +1,24 @@
+{
+  "name": "javascript-weirdness",
+  "version": "0.1.0",
+  "description": "JavaScript weirdness",
+  "scripts": {
+    "start": "npm run test:report",
+    "pretest": "echo 'Starting JavaScript weirdness check. Weirdness is expected.'",
+    "test": "jasmine",
+    "posttest": "echo 'JavaScript is indeed weird.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erkstruwe/javascript-weirdness.git"
+  },
+  "author": "Erk Struwe <estruwe@estruwe.de>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/erkstruwe/javascript-weirdness/issues"
+  },
+  "homepage": "https://github.com/erkstruwe/javascript-weirdness#readme",
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
